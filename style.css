@@ -1,0 +1,40 @@
+.frame{
+    height:800px;
+    width: 800px;
+    border: 1px solid black;
+    position: relative;
+}
+.img{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    top: 0px;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+    
+}
+.red{
+background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.hidden{
+    visibility: collapse;
+    display: none;
+}
+body{
+    display: flex   ;
+    justify-self: center;
+    align-items: center;
+}
+button{
+    height: fit-content;
+}
