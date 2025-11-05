@@ -30,7 +30,7 @@ background-color: red;
     visibility: collapse;
     display: none;
 }
-body{
+.container{
     display: flex   ;
     justify-self: center;
     align-items: center;
@@ -41,4 +41,14 @@ button{
 img{
     height: 800px;
     width: 800px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.btnContainer{
+    display: flex;
+    gap: 20px;
 }
